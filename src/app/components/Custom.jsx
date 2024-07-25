@@ -1,19 +1,18 @@
 import React from 'react'
-//archivo css 
-//import custom from './custom.css'
+
 //archivo json 
-import empresasValiosas from '../json-empresas-valiosas'
-import fraude from '../json-criptos-fraudes'
-import crisisinformacion from '../crisis-recientes'
+import {empresas} from '../json-empresas-valiosas'
+import {fraudes_cripto} from '../json-criptos-fraudes'
+import {crisis_economicas} from '../crisis-recientes'
 
 
 const Custom = () => {
-  /*const informacion = empresasValiosas;
+  
   return (
     <div >
-      <div className="tituloprincipal"><h1>{informacion.descripcion}</h1></div>
+      <div className="tituloprincipal"><h1>{empresas.descripcion}</h1></div>
       <div className="empresas-container">
-          {informacion.empresas.map((empresa) => (
+          {empresas.map((empresa) => (
             <div key={empresa.titulo} className="tarjeta">
               <div className="titulosecundario"><h1>{empresa.titulo}</h1></div>
               <h2><p><b>Descripcion:</b></p></h2>
@@ -27,14 +26,13 @@ const Custom = () => {
           ))}
         </div>
       </div>
-  );*/
-  /*const fraudes=fraude;
-  return(
-
+  )
+  /* iterando json 2 de fraudes*/
+ /* return(
     <div>
       <div className="tituloprincipal"><h1>Fraudes</h1></div>
       <div className='empresas-container'>
-          {fraudes.fraudes_cripto.map((fraude) => (
+          {fraudes_cripto.map((fraude) => (
             <div key={fraude.titulo} className="tarjeta">
               <div className="titulosecundario"><h1>{fraude.titulo}</h1></div>
               
@@ -54,13 +52,12 @@ const Custom = () => {
         </div>
     </div>
   )*/
- const crisis=crisisinformacion;
- return (
-
+/*iterando json 3 de crisis
+ /*return (
 <div>
   <div className="tituloprincipal"><h1>Crisis </h1></div>
   <div className="empresas-container">
-    {crisis.crisis_economicas.map((crisi)=>(
+    {crisis_economicas.map((crisi)=>(
       <div className="tarjeta" key={(crisi.titulo)}>
       <div className="titulosecundario"><h1>{crisi.titulo}</h1></div>
       <h2><p><b>Descripcion:</b></p></h2>
@@ -69,24 +66,13 @@ const Custom = () => {
         <img src={crisi.imagen_de_referencia} alt={crisi.titulo} />
       </div>
       <h3>  <p>Caracteristicas: </p></h3>
-      <div>{Object.entries(crisi.caracteristicas).map((caracteristica)=>(
-        <div>key={caracteristica.ID}</div>
-      ))}</div>
+        <li>Fecha:{crisi.caracteristicas.fecha}</li>
+        <li>Impacto:{crisi.caracteristicas.impacto}</li>
      </div>
-
     ))}
   </div>
  </div>
-
-
-
-
-
-
-
-
-  
- )
+ )*/
 
 }
 export default Custom
