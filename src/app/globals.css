@@ -54,6 +54,15 @@ color: #f2bb07;
 }
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 0.8rem; /* Reduce el tamaño en pantallas más pequeñas */
+}
+h2 {
+  font-size: 0.8rem; /* Reduce el tamaño en pantallas más pequeñas */
+}
+h3 {
+  font-size: 0.8rem; /* Reduce el tamaño en pantallas más pequeñas */
+}
   .tarjeta {
     flex: 1 1 calc(50% - 40px); /* 2 tarjetas por fila */
   }
@@ -70,6 +79,7 @@ color: #f2bb07;
 }
 
 @media (max-width: 480px) {
+  
   .tarjeta {
     flex: 1 1 100%; /* 1 tarjeta por fila */
     max-width: 100%;

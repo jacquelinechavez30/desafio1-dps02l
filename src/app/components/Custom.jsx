@@ -1,5 +1,4 @@
 import React from 'react'
-
 //archivo json 
 import {empresas} from '../json-empresas-valiosas'
 import {fraudes_cripto} from '../json-criptos-fraudes'
