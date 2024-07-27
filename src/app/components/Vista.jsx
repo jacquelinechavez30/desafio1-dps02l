@@ -8,7 +8,7 @@ import Custom from './Custom'
 const Vista = () => {
   
   return (
-<div>
+/*<div>
 {empresas.map((empresa) => (
            
             <Custom  
@@ -20,11 +20,11 @@ const Vista = () => {
             /> 
           ))}
 
-</div>
+</div>*/
 /*para el json de fraudes y crisis*/
-/*<div>
+<div>
 
-{crisis_economicas.map((fraude) => (
+{fraudes_cripto.map((fraude) => (
             <Custom  
             key={fraude.titulo} 
             titulo={fraude.titulo}
@@ -33,7 +33,7 @@ const Vista = () => {
              caracteristicas={fraude.caracteristicas}
              />
           ))}
-</div>*/
+</div>
 
 
     

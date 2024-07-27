@@ -4,7 +4,7 @@ import '../Custom.css'
 
  const Custom = ({titulo,descripcion,caracteristicas,imagen}) => {
   return (
-    <div >
+    /*<div >
       <div className="tituloprincipal"><h1>Empresas</h1></div>
       <div className="empresas-container">
             <div  className="tarjeta"> 
@@ -18,10 +18,25 @@ import '../Custom.css'
               <hr />
             </div>
         </div>
-      </div>
+      </div>*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       /*fraudes*/
-   /* <div>
+   <div>
     <div className="tituloprincipal"><h1>Fraudes</h1></div>
     <div className='empresas-container'>
           <div key={titulo} className="tarjeta">
@@ -39,7 +54,7 @@ import '../Custom.css'
             <hr />
           </div>      
       </div>
-  </div>*/
+  </div>
 
   /*crisis*/
   
