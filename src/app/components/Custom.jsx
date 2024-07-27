@@ -1,8 +1,10 @@
 import React from 'react'
+//Archivo css
+import '../Custom.css'
 
  const Custom = ({titulo,descripcion,caracteristicas,imagen}) => {
   return (
-    /*<div >
+    <div >
       <div className="tituloprincipal"><h1>Empresas</h1></div>
       <div className="empresas-container">
             <div  className="tarjeta"> 
@@ -16,16 +18,14 @@ import React from 'react'
               <hr />
             </div>
         </div>
-      </div>*/
+      </div>
 
       /*fraudes*/
    /* <div>
     <div className="tituloprincipal"><h1>Fraudes</h1></div>
     <div className='empresas-container'>
-        
           <div key={titulo} className="tarjeta">
             <div className="titulosecundario"><h1>{titulo}</h1></div>
-            
             <h2><p><b>Descripcion:</b></p></h2>
             <div className="caja1">
               <p><b>{descripcion}</b></p>
@@ -43,7 +43,7 @@ import React from 'react'
 
   /*crisis*/
   
-<div>
+/*<div>
   <div className="tituloprincipal"><h1>Crisis </h1></div>
   <div className="empresas-container">
       <div className="tarjeta" key={titulo}>
@@ -54,12 +54,12 @@ import React from 'react'
         <img src={imagen} />
       </div>
       <h3>  <p>Caracteristicas: </p></h3>
-      <ul> <li>Fecha:{caracteristicas.fecha}</li>
-      <li>Impacto:{caracteristicas.impacto}</li></ul>
-       
+      <ul> <li><b>Fecha:{caracteristicas.fecha}</b></li>
+      <li><b>Impacto:{caracteristicas.impacto}</b></li></ul>
+       </div>
      </div>
-  </div>
- </div>
+  </div>*/
+
 
   )
 }
