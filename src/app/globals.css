@@ -54,15 +54,7 @@ color: #f2bb07;
 }
 
 @media (max-width: 768px) {
-  h1 {
-    font-size: 0.8rem; /* Reduce el tamaño en pantallas más pequeñas */
-}
-h2 {
-  font-size: 0.8rem; /* Reduce el tamaño en pantallas más pequeñas */
-}
-h3 {
-  font-size: 0.8rem; /* Reduce el tamaño en pantallas más pequeñas */
-}
+  
   .tarjeta {
     flex: 1 1 calc(50% - 40px); /* 2 tarjetas por fila */
   }
@@ -79,6 +71,15 @@ h3 {
 }
 
 @media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem; /* Reduce el tamaño en pantallas más pequeñas */
+}
+h2 {
+  font-size: 1.5rem; /* Reduce el tamaño en pantallas más pequeñas */
+}
+h3 {
+  font-size: 1.5; /* Reduce el tamaño en pantallas más pequeñas */
+}
   
   .tarjeta {
     flex: 1 1 100%; /* 1 tarjeta por fila */
